@@ -22,6 +22,7 @@ variable "cluster_name" {
   description = "AML compute cluster name"
 }
 
+
 variable "node_type" {
   type        = string
   default     = "STANDARD_DS3_v2"

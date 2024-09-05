@@ -1,7 +1,7 @@
 
 variable "subscription_id" {
   type        = string
-  default     = "eastus"
+  default     = "subscription_id"
   description = "Azure region for resources"
 }
 
